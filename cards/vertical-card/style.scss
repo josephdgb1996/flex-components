@@ -1,0 +1,87 @@
+.recipe-card {
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 300px;
+    height: 470px;
+    padding: 15px;
+
+    border-radius: 8px;
+}
+
+.recipe-card .top {
+    display: flex;
+    flex-direction: row;
+
+    .left {
+        display: flex;
+        flex: 2;
+        flex-direction: column;
+
+        padding: 10px;
+
+    }
+
+    .right {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: flex-start;
+
+        .favorite {
+            font-size: 40px;
+        }
+    }
+}
+
+.recipe-card .body {
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+
+    .steps {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        text-align: justify;
+        font-weight: bolder;
+        color: #525252;
+    }
+
+    .image {
+        width: 15rem;
+        align-self: center;
+        border-radius: 5px;
+    }
+}
+
+.recipe-card .bottom {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 22px 0px;
+
+    border-top: 1px #E6E6E6 solid;
+
+    .likes i {
+        border-radius: 20px;
+
+        padding: 10px;
+        margin-right: 5px;
+
+        background-color: red;
+        color: white;
+    }
+
+    .likes,
+    .date {
+        font-weight: bolder;
+        color: #000000;
+    }
+}
