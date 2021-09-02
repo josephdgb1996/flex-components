@@ -1,2 +1,2 @@
-# flex-components
-flex box components 🔥
+# FLEXBOX COMPONENTS
+Components made with flexbox 🔥
